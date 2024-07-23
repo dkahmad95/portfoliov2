@@ -33,7 +33,7 @@ const info = [
 ];
 
 import { motion } from "framer-motion";
-// import ContactForm from "@/components/ContactForm";
+import ContactForm from "@/components/ContactForm";
 
 const Contact = () => {
   return (
@@ -48,7 +48,7 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           {/* form */}
-      {/* <ContactForm/> */}
+      <ContactForm/>
           {/* info */}
           <div className="flex-1 items-center xl:justify-end  mb-8 xl:mb-0">
             <ul className="flex flex-col gap-10">

@@ -20,9 +20,9 @@ const ContactForm = () => {
         action=""
         className="flex flex-col gap-6 p-10 bg-[#2323292a] rounded-xl"
       >
-        <h3 className=" text-4xl text-accent">Let's work together</h3>
+        <h3 className=" text-4xl text-accent">Let&apos;s work together</h3>
         <p className=" text-white/60">
-        I am a dedicated and results-oriented Full Stack Developer with over 2 years of experience, specializing in React.js and Next.js. My expertise lies in crafting dynamic and responsive user interfaces, ensuring a seamless user experience. I am deeply involved in every phase of the project lifecycle, from ideation and design to robust implementation and seamless integration. Let's collaborate to bring your ideas to life with efficiency and innovation.
+        I am a dedicated and results-oriented Full Stack Developer with over 2 years of experience, specializing in React.js and Next.js. My expertise lies in crafting dynamic and responsive user interfaces, ensuring a seamless user experience. I am deeply involved in every phase of the project lifecycle, from ideation and design to robust implementation and seamless integration. Let&apos;s collaborate to bring your ideas to life with efficiency and innovation.
 
         </p>
         {/* input */}
