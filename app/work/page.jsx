@@ -228,7 +228,7 @@ const projects = [
       { name: "React" },
       { name: "Next.js" },
     ],
-    liveLink: "/https://blog-next-mongodb.vercel.app/",
+    liveLink: "https://blog-next-mongodb.vercel.app/",
     githubLink: {
       client: "https://github.com/dkahmad95/blog-next-mongodb",
     },
@@ -287,7 +287,11 @@ const Work = () => {
               {/* bottons */}
               <div className="flex items-center gap-4">
                 {/* live link button */}
-                <Link href={project.liveLink}>
+                <Link
+                  href={project.liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
