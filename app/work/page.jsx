@@ -17,6 +17,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import WorkSliderbtns from "@/components/WorkSliderbtns";
+import { RiArrowDownSLine } from "react-icons/ri";
 
 const projects = [
   {
@@ -256,7 +257,7 @@ const Work = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           {/* project details */}
-          <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
+          <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-3 xl:order-none">
             <div className=" flex flex-col gap-[30px] h-[50%]">
               {/* outlined num */}
               <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
@@ -345,6 +346,9 @@ const Work = () => {
               </div>
             </div>
           </div>
+          <div className="xl:hidden flex  animate-bounce order-2 w-full justify-center items-center">
+          <RiArrowDownSLine className="text-3xl text-accent text-center" />
+        </div>
           {/* slider */}
           <div className="w-full xl:w-[50%]">
             <Swiper
@@ -356,16 +360,17 @@ const Work = () => {
               {projects.map((project, index) => {
                 return (
                   <SwiperSlide key={index} className="w-full">
-                    <div className="h-[460px] relative group flex justify-center items-center bg-transparent ">
+                    <div className="h-[250px] xl:h-[460px] relative group flex justify-center items-center bg-transparent ">
                       {/* overlay */}
                       <div className="absolute top-0 bottom-0 w-full h-full bg-transparent"></div>
                       {/* image */}
-                      <div className="relative w-full h-full">
+                      <div className="relative w-full h-full ">
                         <Image
                           src={project.image}
                           fill
-                          className="object-contain"
+                          className="object-contain "
                           alt=""
+                          priority
                         />
                       </div>
                     </div>
@@ -375,7 +380,7 @@ const Work = () => {
               {/* slider buttons */}
               <WorkSliderbtns
                 containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-non"
-                btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
+                btnStyles=" bg-accent/50 xl:bg-accent  xl:hover:bg-accent-hover hover:bg-accent-hover/80 text-primary text-[22px]  w-[33px] h-[33px] xl:w-[44px] xl:h-[44px] flex justify-center items-center transition-all"
               />
             </Swiper>
           </div>
