@@ -297,7 +297,11 @@ const Work = () => {
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex  flex-col gap-2 justify-center items-center group">
                         <BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
-                        {<span className="xl:hidden text-xs text-accent">Link</span>}
+                        {
+                          <span className="xl:hidden text-xs text-accent">
+                            Link
+                          </span>
+                        }
                       </TooltipTrigger>
                       <TooltipContent>
                         <p>Live project</p>
@@ -317,7 +321,11 @@ const Work = () => {
                       <Tooltip>
                         <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex flex-col gap-2 justify-center items-center group">
                           <BsGithub className="text-white text-3xl group-hover:text-accent" />
-                          {<span className="xl:hidden text-xs text-accent">Client</span>}
+                          {
+                            <span className="xl:hidden text-xs text-accent">
+                              Client
+                            </span>
+                          }
                         </TooltipTrigger>
                         <TooltipContent>
                           <p>Client Repository</p>
@@ -337,7 +345,11 @@ const Work = () => {
                       <Tooltip>
                         <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group flex-col gap-2">
                           <BsGithub className="text-white text-3xl group-hover:text-accent" />
-                          {<span className="xl:hidden text-xs text-accent">Api</span>}
+                          {
+                            <span className="xl:hidden text-xs text-accent">
+                              Api
+                            </span>
+                          }
                         </TooltipTrigger>
                         <TooltipContent>
                           <p>API Repository</p>
@@ -350,8 +362,8 @@ const Work = () => {
             </div>
           </div>
           <div className="xl:hidden flex  animate-bounce order-2 w-full justify-center items-center">
-          <RiArrowDownSLine className="text-3xl text-accent text-center" />
-        </div>
+            <RiArrowDownSLine className="text-3xl text-accent text-center" />
+          </div>
           {/* slider */}
           <div className="w-full xl:w-[50%]">
             <Swiper
@@ -371,10 +383,9 @@ const Work = () => {
                         <Image
                           src={project.image}
                           fill
-
-                        sizes=""
-                          className="object-contain "
-                          alt=""
+                          sizes=""
+                          className="object-contain"
+                          alt={project.title}
                           priority
                         />
                       </div>

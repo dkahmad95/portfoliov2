@@ -11,13 +11,9 @@ const stats = [
     text: "Projects",
   },
   {
-    num: 18,
-    text: "Technologies masterd",
+    num: 19,
+    text: "Technologies mastered",
   },
-//   {
-//     num: 500,
-//     text: "Code commits",
-//   },
 ];
 const Stats = () => {
   return (
