@@ -14,7 +14,7 @@ import {
 const about = {
   title: "About me",
   description:
-    "I am Ahmad Dekmak, a passionate and results-oriented Full Stack Developer with over 2 years of hands-on experience. I specialize in React.js and Next.js, focusing on crafting dynamic and responsive user interfaces. I am involved in the complete project lifecycle, from ideation and design to robust implementation and seamless integration. With a strong background in both frontend and backend development, I am dedicated to delivering high-quality web solutions that meet client needs and exceed expectations.",
+    "I am Ahmad Dekmak, a passionate and results-oriented Full Stack Developer with over 3 years of hands-on experience. I specialize in React.js and Next.js, focusing on crafting dynamic and responsive user interfaces. I am involved in the complete project lifecycle, from ideation and design to robust implementation and seamless integration. With a strong background in both frontend and backend development, I am dedicated to delivering high-quality web solutions that meet client needs and exceed expectations.",
 
   info: [
     {
@@ -69,12 +69,12 @@ const experience = {
     {
       company: "ESDT",
       position: "Full Stack Developer",
-      duration: "2023-2024",
+      duration: "2022-2024",
     },
     {
       company: "Freelancer",
       position: "Full Stack Developer",
-      duration: "2022-Present",
+      duration: "2020-Present",
     },
   ],
 };
