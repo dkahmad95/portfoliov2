@@ -14,7 +14,7 @@ import {
 const about = {
   title: "About me",
   description:
-    "I am Ahmad Dekmak, a passionate and results-oriented Full Stack Developer with over 3 years of hands-on experience. I specialize in React.js and Next.js, focusing on crafting dynamic and responsive user interfaces. I am involved in the complete project lifecycle, from ideation and design to robust implementation and seamless integration. With a strong background in both frontend and backend development, I am dedicated to delivering high-quality web solutions that meet client needs and exceed expectations.",
+    "I'm Ahmad Dekmak, a passionate and results-oriented Full Stack Developer with over 2 years of hands-on experience. I specialize in React.js and Next.js, focusing on crafting dynamic and responsive user interfaces. I am involved in the complete project lifecycle, from ideation and design to robust implementation and seamless integration. With a strong background in both frontend and backend development, I am dedicated to delivering high-quality web solutions that meet client needs and exceed expectations.",
 
   info: [
     {
@@ -53,28 +53,19 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Over the years, I have accumulated extensive experience working in various roles and organizations. My journey in the tech industry has equipped me with a diverse skill set, allowing me to excel in both full stack development and project management.",
+    "Over the years, I have accumulated extensive experience working in different roles and organizations. My journey in the tech industry has equipped me with a diverse skill set, allowing me to excel full stack development.",
 
   items: [
     {
       company: "I-Aim Solutions",
       position: "Front End Developer",
-      duration: "2024-Present",
+      duration: "01/2024-Present",
     },
-    {
-      company: "YouBee.ai",
-      position: "Project Partner",
-      duration: "2024-Present",
-    },
+
     {
       company: "ESDT",
       position: "Full Stack Developer",
-      duration: "2022-2024",
-    },
-    {
-      company: "Freelancer",
-      position: "Full Stack Developer",
-      duration: "2020-Present",
+      duration: "09/2022-01/2024",
     },
   ],
 };
@@ -270,7 +261,7 @@ const Resume = () => {
             </TabsContent>
 
             {/* Skills */}
-            <TabsContent className="w-full h-full" value="skills">
+            <TabsContent className="w-full h-full mb-4" value="skills">
               <div className="flex flex-col gap-[30px]">
                 <div className=" flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
