@@ -31,10 +31,16 @@ const services = [
       "Skilled in developing cross-platform mobile applications using React Native, delivering smooth and responsive experiences for both iOS and Android devices with a focus on performance and scalability.",
     href: "",
   },
+  {
+    num: "05",
+    title: "Azure Cloud Development",
+    description:
+      "Experienced in leveraging Microsoft Azure services for cloud-native application development, including deployment and scaling applications efficiently with Azure App Services.",
+    href: "",
+  },
 ];
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 const Services = () => {
   return (
     <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0 ">

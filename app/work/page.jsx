@@ -267,9 +267,9 @@ const Work = () => {
               <h2 className=" text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
                 {project.category}
               </h2>
-              {/* projext title */}
+              {/* project title */}
               <h2 className="text-white/80">{project.title}</h2>
-              {/* projext description */}
+              {/* project description */}
               <p className="text-white/60">{project.description}</p>
               {/* stack */}
               <ul className=" flex gap-4 flex-wrap">

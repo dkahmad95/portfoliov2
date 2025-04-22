@@ -1,50 +1,37 @@
 "use client";
 
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNode } from "react-icons/fa";
 import {
-  SiTailwindcss,
-  SiNextdotjs,
-  SiNestjs,
-  SiExpress,
-  SiRedux,
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaNode,
+  FaCloud,
+} from "react-icons/fa";
+import {
   SiTypescript,
+  SiRedux,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiExpress,
+  SiNestjs,
+  SiMicrosoftazure,
 } from "react-icons/si";
 
 //about info
 const about = {
   title: "About me",
   description:
-    "I'm Ahmad Dekmak, a passionate and results-oriented Full Stack Developer with over 2 years of hands-on experience. I specialize in React.js and Next.js, focusing on crafting dynamic and responsive user interfaces. I am involved in the complete project lifecycle, from ideation and design to robust implementation and seamless integration. With a strong background in both frontend and backend development, I am dedicated to delivering high-quality web solutions that meet client needs and exceed expectations.",
+    "I'm Ahmad Dekmak, a passionate and results-oriented Full Stack Developer with over 2 years of hands-on experience. I specialize in React.js and Next.js, focusing on crafting dynamic and responsive user interfaces. My expertise extends to backend development using Node.js, Express, and Nest.js, as well as cloud services like AWS and Azure. I’ve contributed to projects from ideation and design to deployment, ensuring seamless integration, performance, and scalability. I thrive on solving complex problems and building high-quality digital experiences.",
 
   info: [
-    {
-      fieldName: "Name",
-      fieldValue: "Ahmad Dekmak",
-    },
-    {
-      fieldName: "Phone",
-      fieldValue: "+961 78 940 697",
-    },
-    {
-      fieldName: "Experience",
-      fieldValue: "2+ years",
-    },
-    {
-      fieldName: "Nationality",
-      fieldValue: "Lebanese",
-    },
-    {
-      fieldName: "Email",
-      fieldValue: "Dkahmad95@gmail.com",
-    },
-    {
-      fieldName: "Freelance",
-      fieldValue: "Available",
-    },
-    {
-      fieldName: "Languages",
-      fieldValue: "Arabic, English",
-    },
+    { fieldName: "Name", fieldValue: "Ahmad Dekmak" },
+    { fieldName: "Phone", fieldValue: "+961 78 940 697" },
+    { fieldName: "Experience", fieldValue: "2+ years" },
+    { fieldName: "Nationality", fieldValue: "Lebanese" },
+    { fieldName: "Email", fieldValue: "Dkahmad95@gmail.com" },
+    { fieldName: "Freelance", fieldValue: "Available" },
+    { fieldName: "Languages", fieldValue: "Arabic, English" },
   ],
 };
 
@@ -59,7 +46,7 @@ const experience = {
     {
       company: "I-Aim Solutions",
       position: "Front End Developer",
-      duration: "01/2024-Present",
+      duration: "01/2024-11/2024",
     },
 
     {
@@ -78,6 +65,16 @@ const education = {
     "My educational background has been instrumental in shaping my career in technology and management. I have pursued formal degrees and engaged in continuous learning through online courses to stay updated with the latest industry trends.",
 
   items: [
+    {
+      university: "Microsoft",
+      degree: "Azure Fundamentals (AZ-900) Certification",
+      years: "In Progress (2024)",
+    },
+    {
+      university: "Microsoft",
+      degree: "Azure Fundamentals (AZ-900) Certification",
+      years: "2024",
+    },
     {
       university: "Online Courses and Tutorials",
       degree: "Certifications of Completion",
@@ -156,6 +153,16 @@ const skills = {
     {
       icon: <SiNestjs />,
       name: "nest.js",
+    },
+
+    // Add Cloud and Azure skills
+    {
+      icon: <SiMicrosoftazure />,
+      name: "Azure",
+    },
+    {
+      icon: <FaCloud />,
+      name: "Cloud Computing",
     },
   ],
 };
