@@ -67,8 +67,8 @@ const education = {
   items: [
     {
       university: "Microsoft",
-      degree: "Azure Fundamentals (AZ-900) Certification",
-      years: "In Progress (2024)",
+      degree: "Azure Administrator Associate (AZ-104) Certification",
+      years: "2024",
     },
     {
       university: "Microsoft",
@@ -251,7 +251,7 @@ const Resume = () => {
                           className="bg-[#2323292a] h-[184px] py-8 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
                           <span className="text-accent">{item.years}</span>
-                          <h3 className="text-xl max-w-[260px min-h-[60px] text-center lg:text-left">
+                          <h3 className="text-xl  text-center lg:text-left">
                             {item.degree}
                           </h3>
                           <div className="flex items-center gap-3">
